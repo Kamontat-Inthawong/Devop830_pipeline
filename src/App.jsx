@@ -8,6 +8,7 @@ function App() {
         <p>
           I <span className="heart">♥️</span> Devops
         </p>
+        <img src="cat.jpg" style={{ width: '50%', height: 'auto' }} />
         <p className="small">
           The<code>web app written by Kamontat</code> and Nicha.
         </p>
