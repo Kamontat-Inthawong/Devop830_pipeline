@@ -9,14 +9,14 @@ function Member() {
       studentId: "6630202007",
       phone: "0958486471",
       email: "kamontat.i@ku.th",
-      image: "/cat.jpg"
+      image: "/bet.jpg"
     },
     2: {
-      name: "Member 2",
+      name: "Nicha Gunhasin",
       studentId: "6630202228",
-      phone: "-",
-      email: "-",
-      image: "/cat.jpg"
+      phone: "064-974-9412",
+      email: "nicha.g@ku.th",
+      image: "/nicha.jpg"
     }
   };
 
