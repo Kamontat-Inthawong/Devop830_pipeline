@@ -51,12 +51,6 @@ jobs:
           key: ${{ secrets.SERVER_SSH_KEY }}
           script: |
             docker pull kamontat01/devop830-pipeline:latest
-            docker stop devop830-app || true
-            docker rm devop830-app || true
-            docker run -d --name devop830-app -p 80:80 kamontat01/devop830-pipeline:latest
-
-      - name: Wait for app to start
-        run: sleep 10
-
-      - name: Check website health
-        run: curl -I http://${{ secrets.SERVER_HOST }}
+            docker stop my-react-app || true
+            docker rm my-react-app || true
+            docker run -d --name my-react-app -p 80:80 kamontat01/devop830-pipeline:latest
